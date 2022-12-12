@@ -1,0 +1,17 @@
+<!-- Logo -->
+<div class="logo-container" onClick="window.location.reload()">
+    <img class="logo" src="./assets/logo/logo_header.png" alt="">
+</div>
+
+
+<!-- Componente canción -->
+<app-cancion *ngIf="cancionSeleccionada" [songInput]="cancionSeleccionada">
+</app-cancion>
+
+<!-- Componente reproductor -->
+<app-reproductor (cancionSeleccionada)="mostrarDetalles($event)" [song]="cancionSeleccionada">
+</app-reproductor>
+
+<!-- Componente listado -->
+<app-listado-canciones (cancionSeleccionada)="mostrarDetalles($event)">
+</app-listado-canciones>

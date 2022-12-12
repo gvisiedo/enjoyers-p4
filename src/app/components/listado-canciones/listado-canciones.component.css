@@ -1,0 +1,64 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+img.thumb {
+    height: 50px;
+    width: 50px;
+}
+
+
+.form {
+    margin-left: 3vw;
+}
+
+input {
+    margin-top: 2%;
+    margin-left: 30px;
+    -webkit-appearance: none;
+    position: relative;
+    width: 20em;
+    padding: 0.8rem;
+}
+
+.headerlist {
+    color: #fff;
+    background-color: #9C27B0;
+}
+
+.list-item {
+    display: grid;
+    grid-template-columns: 10% 20% 30% 30% 10%;
+}
+
+.hovered:hover {
+    background-color: rgba(157, 172, 250, 0.533);
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.track {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.text {
+    margin-top: 1.2rem;
+}
+
+.thumb {
+    margin-top: 0.2rem;
+}

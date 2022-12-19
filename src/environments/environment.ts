@@ -16,18 +16,36 @@
 //   }
 // };
 
+/*export const environment = {
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyBwHS57ahusU-MJriq5mlzSAICeDc4VxWA",
+    authDomain: "music4all-8cfdb.firebaseapp.com",
+    projectId: "music4all-8cfdb",
+    storageBucket: "music4all-8cfdb.appspot.com",
+    messagingSenderId: "747122516654",
+    appId: "1:747122516654:web:be98f9f26e813515cac33f",
+    measurementId: "G-9RQRLLMBMB"
+  }
+};*/
+
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 export const environment = {
-    production: false,
-    firebase: {
-      apiKey: "AIzaSyBwHS57ahusU-MJriq5mlzSAICeDc4VxWA",
-      authDomain: "music4all-8cfdb.firebaseapp.com",
-      projectId: "music4all-8cfdb",
-      storageBucket: "music4all-8cfdb.appspot.com",
-      messagingSenderId: "747122516654",
-      appId: "1:747122516654:web:be98f9f26e813515cac33f",
-      measurementId: "G-9RQRLLMBMB"
-    }
-  };
+  production: false,
+  firebase: {
+  apiKey: "AIzaSyAOGMvrdBNwujEcgy0s_D1WIeFtpfj4C0s",
+  authDomain: "enjoyers-8bbbd.firebaseapp.com",
+  projectId: "enjoyers-8bbbd",
+  storageBucket: "enjoyers-8bbbd.appspot.com",
+  messagingSenderId: "492065639746",
+  appId: "1:492065639746:web:2e79ee8a219244bffe0cdb",
+  measurementId: "G-H2J4NBDB4E"
+  }
+};
+
+
 
   /*
    * For easier debugging in development mode, you can import the following file

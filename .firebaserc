@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "enjoyers-8bbbd": {
+      "hosting": {
+        "music4all": [
+          "enjoyers-8bbbd"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "enjoyers-8bbbd"
+  }
+}

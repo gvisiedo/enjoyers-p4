@@ -49,8 +49,8 @@
       ]
     },
     {
-      "target": "music4all",
-      "public": "dist/music4all",
+      "target": "enjoyers",
+      "public": "dist/enjoyers",
       "ignore": [
         "**/.*"
       ],

@@ -113,11 +113,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "music4all:serve"
+            "devServerTarget": "enjoyers:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "music4all:serve:production"
+              "devServerTarget": "enjoyers:serve:production"
             }
           }
         },
@@ -128,7 +128,7 @@
       }
     }
   },
-  "defaultProject": "music4all",
+  "defaultProject": "enjoyers",
   "cli": {
     "analytics": false
   }

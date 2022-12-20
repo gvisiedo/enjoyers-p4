@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "music4all": {
+    "enjoyers": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/music4all",
+            "outputPath": "dist/enjoyers",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,19 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "music4all:build"
+            "disableHostCheck": true,
+            "browserTarget": "enjoyers:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "music4all:build:production"
+              "browserTarget": "enjoyers:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "music4all:build"
+            "browserTarget": "enjoyers:build"
           }
         },
         "test": {
